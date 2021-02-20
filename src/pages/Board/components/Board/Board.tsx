@@ -34,7 +34,7 @@ export default class Board extends Component<IBoardProps, IBoardState> {
           title: 'Сделано',
           cards: [
             { id: 5, title: 'сделать домашку' },
-            { id: 6, title: 'погулять с собакой' },
+            { id: 6, title: 'укусить себя за локоть' },
           ],
         },
       ],
