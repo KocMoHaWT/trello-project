@@ -1,0 +1,29 @@
+.list {
+  position: relative;
+  border: 2px solid grey;
+  border-radius: 3px;
+  box-shadow: -1px 0px 24px 1px rgba(34, 60, 80, 0.2);
+  margin: 0 10px 10px 0;
+  min-width: 200px;
+  min-height: 300px;
+}
+
+.list-title {
+  text-align: center;
+}
+
+.cards-wrapper {
+  margin: 0 15px 0 15px;
+}
+
+ul.cards-wrapper {
+  padding: 0;
+}
+
+.list .button-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}

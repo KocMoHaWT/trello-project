@@ -1,0 +1,28 @@
+.board-element {
+  padding: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  box-shadow: -1px 0px 24px 1px rgba(34, 60, 80, 0.2);
+  background-color: rgb(229, 252, 229);
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: translate(0, 0);
+  transition: all .2s ease-out;
+}
+
+.board-element:hover{
+    transform: translate(0, -5px);
+    opacity: .8;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+  color: rgb(68, 68, 68);
+  text-align: center;
+}

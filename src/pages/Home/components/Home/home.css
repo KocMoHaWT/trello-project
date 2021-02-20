@@ -1,0 +1,25 @@
+.home-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.boards-wrapper {
+  margin: 0 auto;
+  width: 60%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.boards-wrapper a{
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin: 40px;
+}
